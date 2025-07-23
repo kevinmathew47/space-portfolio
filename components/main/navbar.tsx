@@ -36,7 +36,7 @@ export const Navbar = () => {
               <Link
                 key={link.title}
                 href={link.link}
-                className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
+                className="cursor-pointer hover:text-[rgb(66,248,112)] transition"
               >
                 {link.title}
               </Link>
@@ -86,7 +86,7 @@ export const Navbar = () => {
               <Link
                 key={link.title}
                 href={link.link}
-                className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
+                className="cursor-pointer hover:text-[rgb(66,248,112)] transition text-center"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 {link.title}
@@ -96,7 +96,7 @@ export const Navbar = () => {
               href={LINKS.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
-              className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
+              className="cursor-pointer hover:text-[rgb(66,248,112)] transition text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Source Code
@@ -110,7 +110,7 @@ export const Navbar = () => {
                 href={link}
                 target="_blank"
                 rel="noreferrer noopener"
-                key={name}
+                className="cursor-pointer hover:text-[rgb(66,248,112)] transition"
               >
                 <Icon className="h-8 w-8 text-white" />
               </Link>
