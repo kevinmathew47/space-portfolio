@@ -24,7 +24,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            AR/VR Developer & UX Designer Portfolio
           </h1>
         </motion.div>
 
@@ -33,11 +33,11 @@ export const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing{" "}
+            Creating{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              the best
+              immersive
             </span>{" "}
-            project experience.
+            digital experiences.
           </span>
         </motion.div>
 
@@ -45,8 +45,9 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          I&apos;m an AR/VR Developer and UX Designer with expertise in creating humanoid AI robots, 
+          autonomous systems, and immersive digital experiences. Passionate about innovative technology 
+          and user-centric design solutions.
         </motion.p>
 
         <motion.a

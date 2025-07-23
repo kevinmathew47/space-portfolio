@@ -9,14 +9,44 @@ import {
 
 export const SKILL_DATA = [
   {
-    skill_name: "HTML",
-    image: "html.png",
+    skill_name: "Unity",
+    image: "unity.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "CSS",
-    image: "css.png",
+    skill_name: "AR/VR",
+    image: "arvr.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "UX/UI Design",
+    image: "uxui.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Cybersecurity",
+    image: "cybersecurity.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Java",
+    image: "java.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "C++",
+    image: "cpp.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Python",
+    image: "python.png",
     width: 80,
     height: 80,
   },
@@ -27,32 +57,8 @@ export const SKILL_DATA = [
     height: 65,
   },
   {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "React",
     image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
     width: 80,
     height: 80,
   },
@@ -63,50 +69,44 @@ export const SKILL_DATA = [
     height: 80,
   },
   {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "Node.js",
     image: "node.png",
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
 ] as const;
 
 export const SOCIALS = [
+  {
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://www.linkedin.com/in/kevin-mathew-47422a22b",
+  },
+  {
+    name: "GitHub",
+    icon: RxGithubLogo,
+    link: "https://github.com/kevinmathew47",
+  },
   {
     name: "Instagram",
     icon: RxInstagramLogo,
     link: "https://instagram.com",
   },
-  {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://twitter.com",
-  },
 ] as const;
 
 export const FRONTEND_SKILL = [
+  {
+    skill_name: "UX/UI Design",
+    image: "uxui.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Figma",
+    image: "figma.png",
+    width: 80,
+    height: 80,
+  },
   {
     skill_name: "HTML",
     image: "html.png",
@@ -132,32 +132,8 @@ export const FRONTEND_SKILL = [
     height: 80,
   },
   {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "React",
     image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
     width: 80,
     height: 80,
   },
@@ -170,6 +146,24 @@ export const FRONTEND_SKILL = [
 ] as const;
 
 export const BACKEND_SKILL = [
+  {
+    skill_name: "Java",
+    image: "java.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "C++",
+    image: "cpp.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Python",
+    image: "python.png",
+    width: 80,
+    height: 80,
+  },
   {
     skill_name: "Node.js",
     image: "node.png",
@@ -189,156 +183,132 @@ export const BACKEND_SKILL = [
     height: 40,
   },
   {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
+    skill_name: "Cybersecurity",
+    image: "cybersecurity.png",
     width: 70,
     height: 70,
-  },
-  {
-    skill_name: "MySQL",
-    image: "mysql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
-    width: 80,
-    height: 80,
   },
 ] as const;
 
 export const FULLSTACK_SKILL = [
   {
-    skill_name: "React Native",
-    image: "reactnative.png",
+    skill_name: "Unity",
+    image: "unity.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "AR/VR",
+    image: "arvr.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Blender",
+    image: "blender.png",
     width: 70,
     height: 70,
   },
   {
-    skill_name: "Tauri",
-    image: "tauri.png",
+    skill_name: "3D Modeling",
+    image: "3dmodeling.png",
     width: 70,
     height: 70,
-  },
-  {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
-  },
-
-  {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
   },
 ] as const;
 
 export const OTHER_SKILL = [
   {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
+    skill_name: "Project Management",
+    image: "projectmanagement.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "System Administration",
+    image: "sysadmin.png",
+    width: 80,
+    height: 80,
   },
 ] as const;
 
 export const PROJECTS = [
   {
-    title: "Modern Next.js 14 Portfolio",
+    title: "ZARA - Humanoid Tutor",
     description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
+      'A revolutionary humanoid robot designed to teach programming languages including Java, C++, and Python. ZARA combines advanced AI with interactive learning methodologies to provide personalized tutoring experiences, making complex programming concepts accessible and engaging for students.',
     image: "/projects/project-1.png",
-    link: "https://example.com",
+    link: "https://github.com/kevinmathew47",
   },
   {
-    title: "Interactive Cards Portfolio",
+    title: "Autonomous Driving Car",
     description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
+      'An advanced autonomous vehicle system featuring real-time object detection, path planning, and decision-making algorithms. This project demonstrates cutting-edge computer vision and machine learning techniques to create a self-driving car capable of navigating complex environments safely and efficiently.',
     image: "/projects/project-2.png",
-    link: "https://example.com",
+    link: "https://github.com/kevinmathew47",
   },
   {
-    title: "Space Themed Website",
+    title: "AR/VR Development Portfolio",
     description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
+      'A comprehensive collection of AR/VR applications and experiences developed using Unity and various immersive technologies. This portfolio showcases innovative solutions in virtual reality gaming, augmented reality filters, and geo-spatial applications that push the boundaries of digital interaction.',
     image: "/projects/project-3.png",
-    link: "https://example.com",
+    link: "https://github.com/kevinmathew47",
   },
 ] as const;
 
 export const FOOTER_DATA = [
   {
-    title: "Community",
+    title: "Professional",
     data: [
       {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
+        name: "LinkedIn",
+        icon: RxLinkedinLogo,
+        link: "https://www.linkedin.com/in/kevin-mathew-47422a22b",
       },
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
+        link: "https://github.com/kevinmathew47",
       },
     ],
   },
   {
-    title: "Social Media",
+    title: "Experience",
     data: [
       {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
+        name: "Divegrid - CTO",
+        icon: null,
+        link: "https://divegrid.com",
       },
       {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
+        name: "RigLabs Collectives",
+        icon: null,
+        link: "https://riglabs.com",
       },
       {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
+        name: "AR/VR Mentor",
+        icon: null,
+        link: "mailto:kevinmathew388@gmail.com",
       },
     ],
   },
   {
-    title: "About",
+    title: "Contact",
     data: [
       {
-        name: "Become Sponsor",
+        name: "Email Me",
         icon: null,
-        link: "https://youtube.com",
+        link: "mailto:kevinmathew388@gmail.com",
       },
       {
-        name: "Learning about me",
+        name: "Location",
         icon: null,
-        link: "https://example.com",
+        link: "https://maps.google.com/?q=Karukachal,Kerala,India",
       },
       {
-        name: "Contact Me",
+        name: "Hire Me",
         icon: null,
-        link: "mailto:contact@example.com",
+        link: "mailto:kevinmathew388@gmail.com",
       },
     ],
   },
@@ -360,5 +330,5 @@ export const NAV_LINKS = [
 ] as const;
 
 export const LINKS = {
-  sourceCode: "https://github.com/sanidhyy/space-portfolio",
+  sourceCode: "https://github.com/kevinmathew47",
 };
